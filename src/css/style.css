@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -202,7 +202,7 @@ a:focus,
   padding: 14px 20px;
   margin: 0;
   font-size: 17px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   margin-top: 20px;
   transition: all 0.5s;
 }
@@ -271,7 +271,7 @@ header .intro-text {
 }
 #about img {
   display: inline-block;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 #about p {
   line-height: 24px;
@@ -286,7 +286,7 @@ header .intro-text {
 }
 #space img {
   width: 315px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
 }
 #space h3 {
   padding: 10px 0;
@@ -299,16 +299,17 @@ header .intro-text {
   text-align: center;
 }
 #functions img {
-  width: 75px;
+  width: 110px;
   background: #fff;
-  border-radius: 100px;
+  border-radius: 110px;
   margin: 5px;
   border: 10px solid #fff;
   margin-left: auto;
   margin-right: auto;
 }
 #functions h3 {
-  padding: 10px 0;
+  font-size: 18px;
+  padding: 0px 0px 40px 0px;
 }
 /* Membership Section */
 #membership {
@@ -322,11 +323,8 @@ header .intro-text {
   -o-background-size: cover;
 }
 #membership img {
-  width: 75px;
-  background: #fff;
-  border-width: 80px 150px 80px 150px;
-  border-style: solid;
   margin: 15px;
+  border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -430,7 +428,7 @@ header .intro-text {
 #team .team-img {
   width: 200px;
   height: 200px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   box-shadow: 10px 10px 5px #808080;
 }
 #team .thumbnail {
@@ -454,12 +452,6 @@ header .intro-text {
   font-weight: 400;
   color: #555;
 }
-label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  float: left;
-}
 .contact-footer-text {
   text-align: center;
   margin-bottom: 15px;
@@ -468,13 +460,14 @@ label {
   margin: 20px 0 40px 0;
 }
 #contact .contact-item span {
-  font-weight: 400;
+  font-weight: 350;
   color: rgb(105, 105, 105);
   text-transform: uppercase;
   margin-bottom: 6px;
   display: inline-block;
 }
-#contact .contact-item p {
+#contact .contact-item p,
+#contact .contact-item span {
   font-size: 16px;
 }
 #contact iframe {
@@ -511,14 +504,14 @@ label {
   color: #c0c0c0;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 550px) {
   #footer li:last-child,
   #footer li:nth-last-child(2) {
     float: right;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   #footer img {
     padding-top: 30px;
   }
