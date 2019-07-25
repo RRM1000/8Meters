@@ -441,6 +441,23 @@ header .intro-text {
 #team .thumbnail .caption p {
   color: #fff;
 }
+#team button.btn {
+  text-shadow: 0 0 3px #6b6b6b;
+  background-color: #808080;
+  width: 180px;
+}
+#team button.btn.active {
+  background-color: #808080;
+}
+#team button.btn:hover {
+  background-color: #aaaaaa;
+}
+#team button.btn.collapsed:before {
+  content: "SEE MORE";
+}
+#team button.btn:before {
+  content: "SEE LESS";
+}
 /* Contact Section */
 #contact {
   padding: 120px 0 40px 0;
@@ -469,6 +486,15 @@ header .intro-text {
 #contact .contact-item p,
 #contact .contact-item span {
   font-size: 16px;
+}
+#contact .contact-askmore {
+  margin-top: 5px;
+}
+#contact .contact-askmore a {
+  margin-right: 20px;
+}
+#contact .contact-askmore img {
+  width: 110px;
 }
 #contact iframe {
   padding-bottom: 15px;

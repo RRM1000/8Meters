@@ -86,12 +86,6 @@ function main() {
         return false;
       });
     });
-
-    // Nivo Lightbox
-    $(".portfolio-item a").nivoLightbox({
-      effect: "slideDown",
-      keyboardNav: true
-    });
   })();
 }
 main();
