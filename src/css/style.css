@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Noto", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -231,6 +231,7 @@ a:focus,
 }
 .intro h1 {
   color: #fff;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 88px;
   font-weight: bold;
   margin-top: 0;
@@ -239,6 +240,7 @@ a:focus,
 }
 .intro h2 {
   color: #fff;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 44px;
   font-weight: bold;
   margin-top: 10px;
@@ -255,6 +257,21 @@ header .intro-text {
   padding-top: 200px;
   padding-bottom: 70px;
   text-align: center;
+}
+.announcement:before {
+  /* Enter the announcement message here */
+  content: "This is a test announcement with some added words to see how the text fits the screen.";
+}
+.announcement {
+  /* Uncomment the line below to hide announcement */
+  /*display: none;*/
+  background-color: #6b6b6b;
+  color: #fff;
+  max-width: 500px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 350;
+  padding: 15px;
 }
 /* About Section */
 #about {
