@@ -22,9 +22,9 @@ https://stackoverflow.com/questions/10435334/set-cache-control-for-entire-s3-buc
 ## Announcement
 If you wish to display the announcement in the first section, open the style.css file and search for 'announcement'.
 Comment out the following line
-
+```
 display: none;
-
+```
 In .announcement:before, change the wording in the 'content' tag.
 
 If you need the message to appear on a new line, use \A (or \A \A to leave a gap)
