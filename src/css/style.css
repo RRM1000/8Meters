@@ -258,11 +258,12 @@ header .intro-text {
 }
 .announcement:before {
   /* Enter the announcement message here */
-  content: "This is a test announcement with some added words to see how the text fits the screen.";
+  white-space: pre-wrap;
+  content: "This is a test announcement with \A \A  some added words to see how the text fits the screen.";
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  display: none;
+  /* display: none; */
   background-color: #6b6b6b;
   color: #fff;
   max-width: 500px;
