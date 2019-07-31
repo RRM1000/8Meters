@@ -231,7 +231,6 @@ a:focus,
 }
 .intro h1 {
   color: #fff;
-  font-family: "Noto Sans TC", sans-serif;
   font-size: 88px;
   font-weight: bold;
   margin-top: 0;
@@ -240,7 +239,6 @@ a:focus,
 }
 .intro h2 {
   color: #fff;
-  font-family: "Noto Sans TC", sans-serif;
   font-size: 44px;
   font-weight: bold;
   margin-top: 10px;
@@ -264,7 +262,7 @@ header .intro-text {
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  /*display: none;*/
+  display: none;
   background-color: #6b6b6b;
   color: #fff;
   max-width: 500px;
