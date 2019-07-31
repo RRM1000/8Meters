@@ -18,3 +18,16 @@ You should set the cache-control on items (such as images) so that they are cach
 See the following article for further details:
 
 https://stackoverflow.com/questions/10435334/set-cache-control-for-entire-s3-bucket-automatically-using-bucket-policies
+
+# Announcement
+If you wish to display the announcement in the first section, open the style.css file and search for 'announcement'.
+Comment out the following line
+display: none;
+
+In .announcement:before, change the wording in the 'content' tag.
+
+If you need the message to appear on a new line, use \A (or \A \A to leave a gap)
+
+# Useful Info
+Index_jp.html contains its own font-family Noto Sans JP within the style section
+
