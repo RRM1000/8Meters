@@ -259,7 +259,7 @@ header .intro-text {
 .announcement:before {
   /* Enter the announcement message here */
   white-space: pre-wrap;
-  content: "Hello World \A 大家好!";
+  content: "Hello World to \A 大家好!";
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
