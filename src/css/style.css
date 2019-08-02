@@ -263,9 +263,9 @@ header .intro-text {
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  display: none;
+  /* display: none; */
   background-color: #6b6b6b;
-  color: #fff;
+  color: #fff;\
   max-width: 500px;
   border-radius: 5px;
   font-size: 18px;
