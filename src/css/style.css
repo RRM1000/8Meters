@@ -259,14 +259,14 @@ header .intro-text {
 .announcement:before {
   /* Enter the announcement message here */
   white-space: pre-wrap;
-  content: "Hello World to \A 大家好!";
+  content: "【公告 Announcement】 \A 2019/8/10 13:00-17:00 \A 包場講座 Whole Venue Reservation";
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  display: none;
+  /*display: none;*/
   background-color: #6b6b6b;
-  color: #fff;\
-  max-width: 500px;
+  color: #fff;
+  max-width: 400px;
   border-radius: 5px;
   font-size: 18px;
   font-weight: 350;
