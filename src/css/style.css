@@ -256,6 +256,8 @@ header .intro-text {
   padding-bottom: 70px;
   text-align: center;
 }
+
+
 .announcement:before {
   /* Enter the announcement message here */
   white-space: pre-wrap;
@@ -263,7 +265,8 @@ header .intro-text {
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  /*display: none;*/
+  display: none;
+
   background-color: #6b6b6b;
   color: #fff;
   max-width: 360px;
@@ -272,6 +275,7 @@ header .intro-text {
   font-weight: 350;
   padding: 15px;
 }
+
 /* About Section */
 #about {
   padding: 120px 0;
