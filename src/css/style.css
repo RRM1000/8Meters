@@ -265,8 +265,7 @@ header .intro-text {
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  /*display: none;*/
-
+  display: none;
   background-color: #6b6b6b;
   color: #fff;
   max-width: 320px;
