@@ -261,11 +261,11 @@ header .intro-text {
 .announcement:before {
   /* Enter the announcement message here */
   white-space: pre-wrap;
-  content: "【公告 Announcement】 \A 中秋節公休 Mid Autumn Festival \A 9/13 ~ 9/15 \A";
+  content: "【公告 Announcement】\A 包場 Whole Venue Reservation \A 9/17 19:00-22:00";
 }
 .announcement {
   /* Uncomment the line below to hide announcement */
-  /* display: none; */
+  display: none;
   
   background-color: #6b6b6b;
   color: #fff;
